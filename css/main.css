@@ -1,0 +1,14 @@
+#main {
+  margin: 8px;
+}
+
+#header {
+  margin: 8px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+#header h1 {
+  height: 30px;
+  margin: 8px 0;
+}
