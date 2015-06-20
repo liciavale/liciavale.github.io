@@ -12,3 +12,10 @@
   height: 30px;
   margin: 8px 0;
 }
+
+.project {
+  background-color: red;
+  height: 100px;
+  margin: 8px;
+  padding: 8px;
+}
