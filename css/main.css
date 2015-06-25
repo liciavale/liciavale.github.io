@@ -31,6 +31,14 @@ body {
   padding: 8px;
 }
 
+#logo {
+  background: url(../images/logo.gif) top left no-repeat;
+  height: 101px;
+  margin: 40px auto;
+  text-indent: -99999px;
+  width: 601px;
+}
+
 #main {
   max-width: 1280px;
   margin: 0 auto;
