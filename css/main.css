@@ -27,6 +27,7 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
 }
 
 body {
+  background-color: #ffdc98;
   padding: 8px;
 }
 
@@ -35,20 +36,40 @@ body {
   margin: 0 auto;
 }
 
-#header {
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+#navbar {
+  background-color: #f0cd8c;
+  height: 80px;
   margin: 8px;
 }
 
-#header h1 {
-  height: 30px;
-  margin: 8px 0;
+#navbar ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar ul li {
+  display: block;
+  float: left;
+  font-size: 28px;
+  height: 40px;
+  list-style: none;
+  line-height: 40px;
+  padding: 20px 30px;
+}
+
+#navbar ul li.active {
+  background-color: #bb3455;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #d6b982;
 }
 
 .project {
   background-color: #F00;
-  height: 100px;
+  height: 300px;
   margin: 8px;
   padding: 8px;
 
