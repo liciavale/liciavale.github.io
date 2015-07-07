@@ -3,47 +3,48 @@ body {
 }
 
 #logo {
-  background: url(../images/logo.gif) top left no-repeat;
-  height: 101px;
-  margin: 40px auto;
+  background: url(../images/logo.png) top left no-repeat;
+  float: left;
+  height: 71px;
+  margin: 0;
   text-indent: -99999px;
-  width: 601px;
+  width: 118px;
 }
 
-#main {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
-#navbar {
-  background-color: #f0cd8c;
-  height: 80px;
-  margin: 5px;
-}
-
-#navbar ul {
+#menu {
   float: right;
   margin: 0;
   padding: 0;
 }
 
-#navbar ul li {
+#navbar {
+  margin: 30px 5px;
+  overflow: hidden;
+}
+
+#menu li {
   display: block;
   float: left;
-  font-size: 28px;
-  height: 40px;
   list-style: none;
-  line-height: 40px;
-  padding: 20px 30px;
+  line-height: 71px;
+  margin-left: 1em;
 }
 
-#navbar ul li.active {
-  background-color: #bb3455;
-}
-
-#navbar ul li a {
+#menu a {
+  color: #333;
+  padding: 5px 0;
   text-decoration: none;
-  color: #d6b982;
+  text-transform: uppercase;
+}
+
+#menu a.active,
+#menu a:hover {
+  border-bottom: 1px solid #00b2ca;
+}
+
+#main {
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .project {
