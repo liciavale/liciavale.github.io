@@ -71,9 +71,10 @@ body {
 .project a {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.85);
-  color: #FFF;
+  color: #00b2ca;
   height: 100%;
   position: absolute;
+  text-transform: uppercase;
   width: 100%;
 
   opacity: 0;
