@@ -1,3 +1,9 @@
+/**
+ * COLORS:
+ *
+ * Pantone 16-4725 TPX Scuba Blue: #00B2CA
+ */
+
 @font-face {
     font-family: 'simplifica';
     src: url('fonts/simplifica/simplifica_typeface-webfont.eot');
@@ -29,6 +35,7 @@ body {
 
 #menu {
   float: right;
+  font-size: 21px;
   margin: 0;
   padding: 0;
 }
@@ -43,19 +50,24 @@ body {
   float: left;
   list-style: none;
   line-height: 71px;
-  margin-left: 1em;
 }
 
 #menu a {
+  border-left: 1px solid #00B2CA;
   color: #333;
-  padding: 5px 0;
+  letter-spacing: 1px;
+  padding: 0 1em;
   text-decoration: none;
   text-transform: uppercase;
 }
 
+#menu li:first-child a {
+  border: 0;
+}
+
 #menu a.active,
 #menu a:hover {
-  border-bottom: 1px solid #00b2ca;
+  color: #999;
 }
 
 #main {
