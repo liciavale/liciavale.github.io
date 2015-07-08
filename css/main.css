@@ -26,28 +26,33 @@ body {
 
 #logo {
   background: url(../images/logo.png) top left no-repeat;
-  float: left;
   height: 71px;
-  margin: 0;
+  margin: 0 auto;
   text-indent: -99999px;
   width: 118px;
 }
 
 #menu {
-  float: right;
   font-size: 21px;
-  margin: 0;
+  overflow: hidden;
+  margin-top: 15px;
   padding: 0;
+  text-align: center;
 }
 
 #navbar {
-  margin: 30px 5px 50px 5px;
+  margin: 30px 5px 20px 5px;
   overflow: hidden;
 }
 
+@media screen and (min-width: 30em) {
+  #logo { float: left; }
+  #menu { float: right; margin: 0; }
+  #navbar { margin: 30px 5px 50px 5px; }
+}
+
 #menu li {
-  display: block;
-  float: left;
+  display: inline;
   list-style: none;
   line-height: 71px;
 }
