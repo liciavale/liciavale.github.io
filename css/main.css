@@ -61,7 +61,8 @@ body {
   border-left: 1px solid #00B2CA;
   color: #333;
   letter-spacing: 1px;
-  padding: 0 1em;
+  margin: 0 0 0 1em;
+  padding: 0 0 0 1em;
   text-decoration: none;
   text-transform: uppercase;
 }
