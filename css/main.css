@@ -89,6 +89,13 @@ body {
   text-transform: uppercase;
 }
 
+#subtitle {
+  color: #999;
+  font-size: 1.5em;
+  font-weight: normal;
+  text-align: center;
+}
+
 .project {
   margin: 5px;
   position: relative;
