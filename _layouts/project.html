@@ -8,4 +8,8 @@ layout: default
 {% for image in page.images %}
           <img alt="{{ image[1] }}" class="project-img pure-img" src="images/{{ image[0] }}" />
 {% endfor %}
+
+{% for video in page.videos %}
+          <iframe width="1160" height="870" src="https://www.youtube.com/embed/{{ video }}?rel=0" frameborder="0" allowfullscreen></iframe>
+{% endfor %}
         </div>
