@@ -146,3 +146,21 @@ body {
 .project-img {
   margin-bottom: 20px;
 }
+
+/* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+
+.project-video {
+  height: 0;
+  margin-bottom: 20px;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  position: relative;
+}
+
+.project-video iframe {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}

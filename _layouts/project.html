@@ -10,6 +10,8 @@ layout: default
 {% endfor %}
 
 {% for video in page.videos %}
-          <iframe width="1160" height="870" src="https://www.youtube.com/embed/{{ video }}?rel=0" frameborder="0" allowfullscreen></iframe>
+          <div class="project-video">
+            <iframe width="1160" height="870" src="https://www.youtube.com/embed/{{ video }}?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
 {% endfor %}
         </div>
