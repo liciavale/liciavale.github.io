@@ -148,17 +148,21 @@ body {
   margin-bottom: 20px;
 }
 
-/* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+/* http://webdesignerwall.com/tutorials/css-elastic-videos */
 
 .project-video {
   height: 0;
   margin-bottom: 20px;
+  overflow: hidden;
   padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
+  padding-top: 30px;
   position: relative;
 }
 
-.project-video iframe {
+.project-video iframe,
+.project-video object,
+.project-video embed,
+{
   height: 100%;
   position: absolute;
   left: 0;
