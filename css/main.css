@@ -144,6 +144,7 @@ body {
 }
 
 .project-img {
+  display: inline-block;
   margin-bottom: 20px;
 }
 
@@ -163,4 +164,8 @@ body {
   left: 0;
   top: 0;
   width: 100%;
+}
+
+.project-contents {
+  text-align: center;
 }
