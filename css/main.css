@@ -161,8 +161,7 @@ body {
 
 .project-video iframe,
 .project-video object,
-.project-video embed,
-{
+.project-video embed {
   height: 100%;
   position: absolute;
   left: 0;
