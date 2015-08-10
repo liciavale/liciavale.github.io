@@ -175,7 +175,7 @@ body {
 }
 
 .back-to-top {
-  background: url(../images/top.png) center center no-repeat;
+  background: url(../images/top.png) rgba(255, 255, 255, 0.5) center center no-repeat;
   bottom: 20px;
   display: block;
   height: 50px;
