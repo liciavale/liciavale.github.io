@@ -36,6 +36,10 @@ body {
   padding: 5px;
 }
 
+a {
+  color: #333;
+}
+
 #logo {
   background: url(../images/logo.png) top left no-repeat;
   height: 71px;
@@ -72,7 +76,6 @@ body {
 
 #menu a {
   border-left: 1px solid #00B2CA;
-  color: #333;
   letter-spacing: 1px;
   margin: 0 0 0 1em;
   padding: 0 0 0 1em;
