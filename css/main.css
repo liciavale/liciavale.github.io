@@ -186,6 +186,7 @@ body {
   width: 100%;
 }
 
+.page-contents,
 .project-contents {
   text-align: center;
 }
@@ -204,4 +205,8 @@ body {
   -webkit-transition: opacity .3s 0s;
   -moz-transition: opacity .3s 0s;
   transition: opacity .3s 0s;
+}
+
+.about-intro {
+  font-style: italic;
 }
