@@ -51,7 +51,6 @@ a {
 #menu {
   font-family: simplifica;
   font-size: 21px;
-  overflow: hidden;
   margin-top: 15px;
   padding: 0;
   text-align: center;
@@ -85,6 +84,8 @@ a {
 
 #menu li:first-child a {
   border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #menu a.active,
