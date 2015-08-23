@@ -1,8 +1,23 @@
 ---
+visible_projects:
+  - calvin_klein_just_in_time
+  - armig
+  - calvin_klein_find_your_moment
+  - logos
+  - illustrations
+  - girl_to_girl
+  - festival_di_artisti_di_strada
+  - chicca_lualdi
+  - serapian
+  - centro_tao
+  - motion_design
+  - matilde
 ---
-{% assign projects = site.projects | sort: 'order' %}
-{% for project in projects %}
-  {% assign project_url = project.url | remove:'/index.html' %}
+{% for visible_project_slug in page.visible_projects %}
+  {% for project in site.projects %}
+    {% assign project_url = project.url | remove:'/index.html' %}
+    {% assign project_slug = project_url | remove:'/projects/' %}
+    {% if project_slug == visible_project_slug %}
         <div class="pure-u-1-2 pure-u-md-1-3">
           <div class="project">
             <a href="{{ project_url }}">
@@ -11,4 +26,6 @@
             <img alt="{{ project.name }}" class="pure-img" src="{{ project_url }}/thumb.png" />
           </div>
         </div>
+    {% endif %}
+  {% endfor %}
 {% endfor %}
