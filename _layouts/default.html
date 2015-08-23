@@ -26,9 +26,9 @@
               <h1 id="logo">LiciaVale</h1>
             </a>
             <ul id="menu">
-              <li><a class="active" href="/">Projects</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a{% if page.url contains '/projects/' or page.url == '/index.html' %} class="active"{% endif %} href="/">Projects</a></li>
+              <li><a{% if page.url contains '/about/' %} class="active"{% endif %} href="/about">About</a></li>
+              <li><a{% if page.url contains '/contact/' %} class="active"{% endif %} href="/contact">Contact</a></li>
             </ul>
           </div>
         </div>
