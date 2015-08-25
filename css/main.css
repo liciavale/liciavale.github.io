@@ -42,7 +42,8 @@ a {
 
 #logo {
   background: url(../images/logo.png) top left no-repeat;
-  height: 71px;
+  background-size: contain;
+  height: 74px;
   margin: 0 auto;
   text-indent: -99999px;
   width: 118px;
