@@ -120,8 +120,11 @@ a {
 
 .project {
   font-family: simplifica;
+  height: 360px;
   margin: 5px;
+  overflow: hidden;
   position: relative;
+  width: 380px;
 }
 
 .project a {
