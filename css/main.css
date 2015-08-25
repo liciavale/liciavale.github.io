@@ -1,7 +1,7 @@
 /**
  * COLORS:
  *
- * Pantone 16-4725 TPX Scuba Blue: #00B2CA
+ * Pantone 16-4725 TPX Scuba Blue: #00B2CA / R: 0, G: 178, B: 202
  */
 
 @font-face {
@@ -199,7 +199,7 @@ a {
 }
 
 .back-to-top {
-  background: url(../images/top.png) rgba(255, 255, 255, 0.5) center center no-repeat;
+  background: url(../images/top.png) rgba(0, 178, 202, 0.5) center center no-repeat;
   bottom: 20px;
   display: block;
   height: 50px;
