@@ -213,3 +213,45 @@ a {
 .about-intro {
   font-style: italic;
 }
+
+.avatar {
+  border-radius: 100%;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.contact {
+  font-size: 2em;
+  margin: 1em auto 1em auto;
+  max-width: 12em;
+}
+
+.social-links {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 754px;
+}
+
+.social-links li {
+  border-left: 2px solid #F0F0F0;
+  float: left;
+  height: 140px;
+  list-style: none;
+  width: 250px;
+}
+
+.social-links li:first-child {
+  border-left: 0;
+}
+
+.social-links a {
+  display: block;
+  height: 64px;
+  margin: 38px auto;
+  text-indent: -99999px;
+  width: 64px;
+}
+
+.twitter  { background: url(../images/twitter.png)  top left no-repeat; }
+.linkedin { background: url(../images/linkedin.png) top left no-repeat; }
+.facebook { background: url(../images/facebook.png) top left no-repeat; }
