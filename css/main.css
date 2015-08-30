@@ -229,15 +229,16 @@ a {
 .social-links {
   margin: 0 auto;
   overflow: hidden;
-  width: 754px;
+  padding: 0;
+  width: 604px;
 }
 
 .social-links li {
   border-left: 2px solid #F0F0F0;
   float: left;
-  height: 140px;
+  height: 100px;
   list-style: none;
-  width: 250px;
+  width: 200px;
 }
 
 .social-links li:first-child {
@@ -246,10 +247,10 @@ a {
 
 .social-links a {
   display: block;
-  height: 64px;
-  margin: 38px auto;
+  height: 32px;
+  margin: 34px auto;
   text-indent: -99999px;
-  width: 64px;
+  width: 32px;
 }
 
 .twitter  { background: url(../images/twitter.png)  top left no-repeat; }
