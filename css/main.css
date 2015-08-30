@@ -17,19 +17,18 @@
 }
 
 @font-face {
-    font-family: 'opensans';
-    src: url('fonts/opensans/opensans-regular-webfont.eot');
-    src: url('fonts/opensans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/opensans/opensans-regular-webfont.woff2') format('woff2'),
-         url('fonts/opensans/opensans-regular-webfont.woff') format('woff'),
-         url('fonts/opensans/opensans-regular-webfont.ttf') format('truetype'),
-         url('fonts/opensans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-family: 'unna';
+    src: url('fonts/unna/Unna-Regular.eot');
+    src: url('fonts/unna/Unna-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/unna/Unna-Regular.woff2') format('woff2'),
+         url('fonts/unna/Unna-Regular.woff') format('woff'),
+         url('fonts/unna/Unna-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
-  font-family: opensans;
+  font-family: unna;
 }
 
 body {
