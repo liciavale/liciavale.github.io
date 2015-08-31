@@ -2,8 +2,8 @@
 layout: default
 ---
         <div class="pure-u-1 contents">
-          <h2 id="title">{{ page.name }}</h2>
-          <h3 id="subtitle">{{ page.description }}</h3>
+          <h2 class="title">{{ page.name }}</h2>
+          <h3 class="subtitle">{{ page.description }}</h3>
 
 {% for image in page.images %}
           <img alt="{{ image[1] }}" class="project-img pure-img" src="images/{{ image[0] }}" />
