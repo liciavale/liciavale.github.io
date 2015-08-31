@@ -39,6 +39,10 @@ a {
   color: #333;
 }
 
+p {
+  font-size: 1.5em;
+}
+
 #logo {
   background: url(../images/logo.png) top left no-repeat;
   background-size: contain;
@@ -221,7 +225,6 @@ a {
 }
 
 .contact {
-  font-size: 2em;
   margin: 1em auto 1em auto;
   max-width: 12em;
 }
@@ -254,3 +257,28 @@ a {
 .twitter  { background: url(../images/twitter.png)  center center no-repeat; }
 .linkedin { background: url(../images/linkedin.png) center center no-repeat; }
 .facebook { background: url(../images/facebook.png) center center no-repeat; }
+
+.green  { color: #106706; }
+.blue   { color: #00B2CA; }
+.purple { color: #450964; }
+.red    { color: #880707; }
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+q:before {
+  color: #00B2CA;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0;
+  margin-right: 0.2em;
+}
+
+q:after {
+  color: #00B2CA;
+  content: close-quote;
+  font-size: 3em;
+  line-height: 0;
+  vertical-align: -0.8em;
+}
