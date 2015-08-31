@@ -14,4 +14,11 @@ layout: default
             <iframe width="1160" height="870" src="https://www.youtube.com/embed/{{ video }}?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
 {% endfor %}
+
+          <h2 class="title">{{ page.other_name }}</h2>
+          <h3 class="subtitle">{{ page.other_description }}</h3>
+
+{% for image in page.other_images %}
+          <img alt="{{ image[1] }}" class="project-img pure-img" src="images/{{ image[0] }}" />
+{% endfor %}
         </div>
