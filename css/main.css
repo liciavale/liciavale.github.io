@@ -39,7 +39,7 @@ a {
   color: #333;
 }
 
-p {
+.contents p {
   font-size: 1.4em;
 }
 
@@ -315,4 +315,61 @@ q:after {
 
 .passions img {
   margin: 0 auto 10px auto;
+}
+
+#footer {
+  height: 100px;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+#footer p {
+  text-align: center;
+}
+
+#footer ul {
+  font-family: simplifica;
+  margin-bottom: 2em;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#footer li {
+  border-left: 1px solid #000;
+  box-sizing: border-box;
+  float: left;
+  list-style: none;
+  text-align: center;
+  width: 33.33%;
+}
+
+#footer li a {
+  text-decoration: none;
+}
+
+#footer li:first-child {
+  border-left: 0;
+}
+
+@media screen and (min-width: 30em) {
+  #footer p {
+    display: inline-block;
+  }
+
+  #footer ul {
+    float: right;
+    overflow: visible;
+  }
+
+  #footer li {
+    margin-left: 50px;
+    padding-left: 50px;
+    width: auto;
+  }
+
+  #footer li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+  }
 }
