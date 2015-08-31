@@ -304,11 +304,13 @@ q:after {
 }
 
 .passions li {
+  box-sizing: border-box;
   float: left;
-  padding-top: 135px;
+  padding: 10px;
+  text-align: center;
   width: 33%;
 }
 
-.computers { background: url(../images/computers.png) top center no-repeat; }
-.design    { background: url(../images/design.png)    top center no-repeat; }
-.drawing   { background: url(../images/drawing.png)   top center no-repeat; }
+.passions img {
+  margin: 0 auto 10px auto;
+}
