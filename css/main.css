@@ -216,6 +216,7 @@ p {
 
 .about-intro {
   font-style: italic;
+  margin-top: 2em;
 }
 
 .avatar {
@@ -284,6 +285,7 @@ q:after {
 }
 
 .passions {
+  margin-top: 3.5em;
   text-transform: uppercase;
 }
 
