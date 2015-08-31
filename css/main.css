@@ -305,10 +305,10 @@ q:after {
 
 .passions li {
   float: left;
-  padding-top: 100px;
+  padding-top: 135px;
   width: 33%;
 }
 
-.computers { background: url(../images/computer.png) top center no-repeat; }
-.design    { background: url(../images/design.png) top center no-repeat; }
-.drawing   { background: url(../images/drawing.png) top center no-repeat; }
+.computers { background: url(../images/computers.png) top center no-repeat; }
+.design    { background: url(../images/design.png)    top center no-repeat; }
+.drawing   { background: url(../images/drawing.png)   top center no-repeat; }
