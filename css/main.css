@@ -40,7 +40,13 @@ a {
 }
 
 .contents p {
-  font-size: 1.4em;
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: 30em) {
+  .contents p {
+    font-size: 1.4em;
+  }
 }
 
 #logo {
