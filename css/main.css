@@ -374,3 +374,7 @@ q:after {
     padding-left: 0;
   }
 }
+
+.countries-list {
+  white-space: nowrap;
+}
