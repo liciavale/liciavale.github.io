@@ -267,7 +267,7 @@ a {
 .facebook { background: url(../images/facebook.png) center center no-repeat; }
 
 .green  { color: #106706; }
-.blue   { color: #00B2CA; }
+.blue   { color: #00B2CA; text-decoration: none; }
 .purple { color: #450964; }
 .red    { color: #880707; }
 
