@@ -54,7 +54,7 @@ a {
 
 #menu {
   font-family: simplifica;
-  font-size: 21px;
+  font-size: 23px;
   margin-top: 15px;
   padding: 0;
   text-align: center;
@@ -75,25 +75,26 @@ a {
   display: inline;
   list-style: none;
   line-height: 71px;
+  margin-left: 2em;
 }
 
 #menu a {
-  border-left: 1px solid #00B2CA;
   letter-spacing: 1px;
-  margin: 0 0 0 1em;
-  padding: 0 0 0 1em;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-#menu li:first-child a {
-  border: 0;
+#menu li:first-child {
   margin: 0;
   padding: 0;
 }
 
-#menu a.active,
 #menu a:hover {
+  color: #999;
+}
+
+#menu a.active {
+  border-bottom: 1px solid #00B2CA;
   color: #999;
 }
 
