@@ -128,6 +128,10 @@ a {
   text-align: center;
 }
 
+.subtitle a {
+  color: #666;
+}
+
 .project {
   font-family: simplifica;
   margin: 5px;
