@@ -18,8 +18,8 @@ visible_projects:
     {% assign project_url = project.url | remove:'/index.html' %}
     {% assign project_slug = project_url | remove:'/projects/' %}
     {% if project_slug == visible_project_slug %}
-        <div class="pure-u-1-2 pure-u-md-1-3">
-          <div class="project {{ project_slug }}">
+        <div class="pure-u-1-2 pure-u-md-1-3 {{ project_slug }}">
+          <div class="project">
             <a href="{{ project_url }}">
               <span class="project-name">{% if project.thumb_name %}{{ project.thumb_name }}{% else %}{{ project.name }}{% if project.other_name %} & {{ project.other_name }}{% endif %}{% endif %}</span>
             </a>
